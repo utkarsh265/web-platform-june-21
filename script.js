@@ -33,7 +33,7 @@ function display() {
   // assigning height & width
 
   span.style.height = height + 'px';
-  span.style.width = width + 'px';
+  span.style.fontSize = width + 'px';
 }
 
 // function for displaying styling as alert when click print
