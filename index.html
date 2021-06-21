@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+   <div class="container">
+        <video id="video" autoplay loop controls
+            src="https://file-examples-com.github.io/uploads/2017/04/file_example_MP4_480_1_5MG.mp4" height=""
+            width="500px"></video>
+        <span id="span"></span>
+    </div>
+    <div id="insert">
+        <form action="#">
+
+            <label for="mytext">Type Text</label>
+            <input id="mytext" type="text" placeholder="Enter text">
+            <input id="xcor" type="number" placeholder="x-coordinate (10-440)">
+            <input id="ycor" type="number" placeholder="y-coordinate (0-250)">
+            <input id="width" type="number" placeholder="width (0-100)">
+            <input id="height" type="number" placeholder="height (50-100)">
+            <button onclick="display()" id="btn">Enter</button>
+            <button onclick="output()" id="btn2">print</button>
+            <button type="button" onclick="refreshPage()" name="" id="btn3">Reload</button>
+        </form>
+    </div>
+
+
+  </body>
+</html>

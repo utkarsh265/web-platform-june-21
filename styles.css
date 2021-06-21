@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#video{
+    display: block;
+    margin:0 10px;
+}
+
+#span{
+    display: inline;
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 18px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    background-color: none;
+    border-radius: 10px;
+    text-align: cente;
+    padding: 5px 10px;
+}
+.container{
+    box-sizing: border-box;
+    background-color: rgb(50, 54, 54);
+    border-radius: 10px;
+    
+    
+}
+#insert{
+    background-color: rgb(104, 233, 233);
+    box-sizing: border-box;
+}
+#mytext{
+    display: block;
+    padding: 10px 30px;
+    margin: auto;
+}
+label{
+    font-size: 20px;
+    position: relative;
+    left: 450px;
+    top: 30px;
+    cursor: pointer;
+}
+   
+
+input{
+    padding: 10px 10px;
+    margin: 30px 10px 20px 20px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    }
+
+#btn , #btn2 , #btn3{
+    background-color: black;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    margin:  auto;
+    margin-top: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
