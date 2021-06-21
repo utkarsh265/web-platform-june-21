@@ -45,7 +45,7 @@ function output() {
       ' & ' +
       span.style.top +
       '\n The width and height are : ' +
-      span.style.width +
+      span.style.fontSize +
       ' & ' +
       span.style.height
   );
