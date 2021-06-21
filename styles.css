@@ -40,7 +40,7 @@ body{
 label{
     font-size: 20px;
     position: relative;
-    left: 450px;
+    margin: 20px;
     top: 30px;
     cursor: pointer;
 }
